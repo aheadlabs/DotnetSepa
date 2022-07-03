@@ -1,0 +1,6 @@
+# IDEs
+.vs/
+
+# Generated
+bin/
+obj/

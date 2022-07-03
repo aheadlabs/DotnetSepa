@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>0.0.1</Version>
+		<Company>Ahead Labs, S.L.</Company>
+		<Authors>Ahead Labs, S.L.</Authors>
+		<Description>Opinionated repository that contains common .NET tools and patterns to interact with Azure APIs.</Description>
+		<Copyright>Ahead Labs, S.L.</Copyright>
+		<PackageProjectUrl>https://github.com/aheadlabs/DotnetSepa</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/aheadlabs/DotnetSepa</RepositoryUrl>
+		<RepositoryType>Git</RepositoryType>
+		<PackageTags>sepa, toolset</PackageTags>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="LICENSE" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+</Project>
